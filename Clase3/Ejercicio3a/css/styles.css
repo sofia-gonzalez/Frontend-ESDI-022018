@@ -12,8 +12,11 @@ html, body {
 /* en el body hay que definir los estilos de size, espaciado y familia de la fuente.
 Puedes probar de usar PX o EM para asignar los tamaños a la letra.
 Además, la imagen tiene un color en el fondom también puedes agregarlo en el body */
-body {
-
+body {font-family:courrier-new, monospace;
+		text-align: center;
+		border-width: 1px;
+		border-color: black;
+  		border-style: solid double;
 }
 
 /* Estan las clases que posicionan los elementos pero faltan por crear todas las clases
@@ -43,6 +46,11 @@ body {
     margin: 10px;
     float: left;
 }
+.column img{width: 100%
+	}
+
+.column ul{text-align: left
+}
 
 ul#navigation {
 	width: 570px;
@@ -54,4 +62,28 @@ ul#navigation {
 #navigation li{
 	display: inline;
 	margin: 0px 3px;
+	padding-left: 20px
 }
+
+#navigation li a:link { text-decoration:none;
+	color:black;
+	text-transform: uppercase;
+	}
+
+#navigation li a:visited {color:black}
+
+#navigation li a:active {color:red;
+
+}
+
+#navigation li a:hover {color:red;
+
+}
+
+#navigation {border-top: 3px solid black;
+	border-bottom: 1px solid black
+	}
+
+.bold-red {color:red;
+	font-weight: bold
+	}
